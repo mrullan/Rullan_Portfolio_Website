@@ -5,24 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="img/favicon.ico" type="image/x-con">
+    <link rel="stylesheet" href="./css/style_sheet.css">
     <title>Rullan Portfolio</title>
 </head>
 <body>
     <nav>
-        <a href="index.html">My Home Page</a>
-        <a href="html/my_resume.html">My Resume</a>
-        <a href="html/my_fun_facts.html">Fun Facts About Me</a>
+        <span>
+            <button onclick="window.location.href='./index.html'">My Home Page</button>
+        </span>
+        <span>
+            <button onclick="window.location.href='./html/my_resume.html'">My Resume</button>
+        </span>
+        <span>
+            <button onclick="window.location.href='./html/my_fun_facts.html'">My Fun Facts</button>
+        </span>
     </nav>
+
 
     <h1>Miguel Rullan Portfolio</h1>
 
     <figure>
-        <img src="../Rullan_Portfolio_Website/img/Self_image.jpg" alt="Me" height="400px" width="300px">
+        <img class="pic" src="./img/Self_image.jpg" alt="Me" height="100px" width="75px">
         <figcaption>“Never argue with an idiot. They will only bring you down to their level and beat you with experience.” – George Carlin</figcaption>
     </figure>
     
 
-    <p>My name is Miguel Rullan, I was born in Florida and grew up in Puerto Rico. I currently work as the Lead Service Manager for a Chipotle in Woodhaven Michigan <br>
+    <p style="font-size: 35px;">My name is Miguel Rullan, I was born in Florida and grew up in Puerto Rico. I currently work as the Lead Service Manager for a Chipotle in Woodhaven Michigan <br>
     and my current goal is to complete my IT degree and find a job in software development, to find out more visit my resume and fun facts pages.</p>
 
     <progress value="70" max="130"></progress>
@@ -31,7 +39,7 @@
 <footer>
     <hr> 
     <span>©2021 Miguel Rullan</span>
-    <span>&nbsp;&nbsp;&nbsp;&nbsp;Email: marull1997@gmail.com</span>
+    <span class="spanRight">Email: marull1997@gmail.com</span>
 </footer>
 
 </html>

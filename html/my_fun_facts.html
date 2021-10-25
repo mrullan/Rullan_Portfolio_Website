@@ -5,49 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../img/favicon.ico" type="image/x-con">
+    <link rel="stylesheet" href="../css/style_sheet.css">
     <title>Rullan Portfolio</title>
 </head>
 <body>
     <nav>
-        <a href="../index.html">My Home Page</a>
-        <a href="my_resume.html">My Resume</a>
-        <a href="my_fun_facts.html">Fun Facts About Me</a>
+        <span>
+            <button onclick="window.location.href='../index.html'">My Home Page</button>
+        </span>
+        <span>
+            <button onclick="window.location.href='./my_resume.html'">My Resume</button>
+        </span>
+        <span>
+            <button onclick="window.location.href='./my_fun_facts.html'">My Fun Facts</button>
+        </span>
     </nav>
 
     <h1>Some Fun Facts About Me</h1>
 
     <section>
-        <h2>Favorite Book</h2>
+        <div id="firstbox">
+        <h2 class="div_align">Favorite Book</h2>
 
-        <h3>A Game of Thrones, George R.R. Martin</h3>
+        <h3 class="div_align">A Game of Thrones, George R.R. Martin</h3>
         <figure>
-            <img src="../img/Game_of_Thrones.jpg" alt="A Game of Thrones" height="400px" width="300px">
+            <img class="pic" src="../img/Game_of_Thrones.jpg" alt="A Game of Thrones" height="400px" width="300px">
         </figure>
-        <a href="https://www.amazon.com/Game-Thrones-Song-Ice-Fire/dp/0007428545/ref=sr_1_6?crid=2AJTJG18R4GB7&dchild=1&keywords=a+game+of+thrones&qid=1633742640&sprefix=a+game+of%2Caps%2C296&sr=8-6">Purchase Now</a>
+        <a class="linkStyle" href="https://www.amazon.com/Game-Thrones-Song-Ice-Fire/dp/0007428545/ref=sr_1_6?crid=2AJTJG18R4GB7&dchild=1&keywords=a+game+of+thrones&qid=1633742640&sprefix=a+game+of%2Caps%2C296&sr=8-6" target="blank" rel="noopener">Purchase Now</a>
 
-        <p>'A Game of Thrones' by George R.R. Martin, tells a thrilling story of Deception, Honor, and Betrayal. I enjoy it alot for one because I <br>
+        <p id="description">'A Game of Thrones' by George R.R. Martin, tells a thrilling story of Deception, Honor, and Betrayal. I enjoy it alot for one because I <br>
         have always been fond of anything in a Medieval setting, but this book is special in that it keeps you guessing, you don't really know anyone's <br>
         motives or plans, and there is no clear right or wrong sides in the story, as no one is totally upstanding.</p>
+        </div>
+        <div>
+        <h2 class="div_align">Favorite Song</h2>
 
-        <h2>Favorite Song</h2>
-
-        <h3>Calma, Pedro Capo + Farruko</h3>
+        <h3 class="div_align">Calma, Pedro Capo + Farruko</h3>
         <!--<audio src=""></audio>-->
-        <a href="https://www.youtube.com/watch?v=1_zgKRBrT0Y">Listen to it Here</a>
+        <a class="linkStyle" href="https://www.youtube.com/watch?v=1_zgKRBrT0Y" target="blank" rel="noopener">Listen to it Here</a>
+        </div>
+        <div>
+        <h2 class="div_align">Favorite TV Series</h2>
 
+        <h3 class="div_align">The Expanse</h3>
 
-        <h2>Favorite TV Series</h2>
-
-        <h3>The Expanse</h3>
-
-        <iframe src="https://www.youtube.com/embed/8X5gXIQmY-E" frameborder="0"></iframe>
-
+        <iframe class="trailer" src="https://www.youtube.com/embed/8X5gXIQmY-E" frameborder="0"></iframe>
+        </div>
     </section>
 
     <footer>
         <hr> 
         <span>©2021 Miguel Rullan</span>
-        <span>&nbsp;&nbsp;&nbsp;&nbsp;Email: marull1997@gmail.com</span>
+        <span class="spanRight">Email: marull1997@gmail.com</span>
     </footer>
 </body>
 </html>
